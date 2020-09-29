@@ -1,0 +1,43 @@
+{
+  "shelf#novidades": {
+    "blocks": ["product-summary.shelf#novidades"],
+    "props": {
+      "category": "100031/100016",
+      "orderBy": "OrderByReleaseDateDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "gap": "ph3",
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Novidades",
+        "showTitle": true
+      }
+    }
+  },
+  "product-summary.shelf#novidades": {
+    "children": [
+      "sticky-layout.stack-container"
+    ],
+    "props": {
+        "blockClass": "showcase-shelf"
+    }
+},
+"sticky-layout.stack-container": {
+    "children": [
+        "product-summary-image"
+    ]
+  },
+  "flex-layout.row#buy": {
+    "children": ["flex-layout.col"]
+  },
+  "flex-layout.col": {
+    "children": [
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  }
+}

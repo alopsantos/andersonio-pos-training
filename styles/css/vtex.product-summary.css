@@ -1,0 +1,12 @@
+.vtex-flex-layout-0-x-flexCol--showcase-shelf:hover{
+    bottom: -5px;
+}
+.vtex-flex-layout-0-x-flexCol--showcase-shelf--infos{
+    left: 0;
+    height: auto;
+    bottom: -110%;
+    padding: 20px;
+    position: absolute;
+    transition: bottom .3s linear;
+    background-color: hsla(0,0%,100%,.8);
+}
