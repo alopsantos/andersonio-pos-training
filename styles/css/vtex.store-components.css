@@ -1,0 +1,41 @@
+.productNameContainer {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  color: #424245;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.sellingPrice {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ef1c8f;
+  text-decoration: none;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.skuSelectorName {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  margin-top: 27px;
+  padding: 0;
+  font-weight: 500;
+  color: #424245;
+  line-height: 1;
+  display: block;
+}
+
+.skuSelectorItemTextValue {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #424245;
+  text-align: center;
+  line-height: 37px;
+  transition: all .2s ease;
+}
+.skuSelectorItem--skuSelector--selected{
+}

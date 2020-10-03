@@ -1,13 +1,15 @@
 {
   "shelf#novidades": {
-    "blocks": ["product-summary.shelf#novidades"],
+    "blocks": [
+      "product-summary.shelf#clone"
+    ],
     "props": {
-      "category": "100031/100016",
+      "category": "100031/100053",
       "orderBy": "OrderByReleaseDateDESC",
-      "paginationDotsVisibility": "desktopOnly",
+      "paginationDotsVisibility": "always",
       "productList": {
         "gap": "ph3",
-        "maxItems": 10,
+        "maxItems": 30,
         "itemsPerPage": 5,
         "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
@@ -17,27 +19,40 @@
       }
     }
   },
-  "product-summary.shelf#novidades": {
+  "product-summary.shelf#clone": {
+    "props": {},
     "children": [
-      "sticky-layout.stack-container"
-    ],
-    "props": {
-        "blockClass": "showcase-shelf"
-    }
-},
-"sticky-layout.stack-container": {
-    "children": [
-        "product-summary-image"
-    ]
-  },
-  "flex-layout.row#buy": {
-    "children": ["flex-layout.col"]
-  },
-  "flex-layout.col": {
-    "children": [
+      "stack-layout#prodsumclone",
       "product-summary-name",
-      "product-summary-price",
-      "product-summary-buy-button"
+      "add-to-cart-button#clone",
+      "product-summary-price"
     ]
+  },
+  "stack-layout#prodsumclone": {
+    "children": [
+      "product-summary-image#shelfclone"
+    ]
+  },
+  "product-summary-image#shelfclone": {
+    "props": {
+      "showBadge": true,
+      "aspectRatio": "3:4",
+      "maxHeight": 440
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "hoverImageLabel":"ImageOver",
+      "height": 440,
+      "width": 331
+    }
+  },
+  "add-to-cart-button#clone": {
+    "props": {
+      "text": "COMPRAR"
+    }
+  },
+  "product-summary-price":{
+
   }
 }
