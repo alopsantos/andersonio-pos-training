@@ -1,0 +1,24 @@
+.styledLinkContainer{
+  padding: 4px;
+  justify-content: space-between;
+  margin: 0;
+}
+.styledLinkContainer:hover{
+  background: #ef1c8f;
+}
+.styledLink{
+  text-align: center;
+  color: #ef1c8f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Oswald';
+  width: 70px;
+  text-transform: uppercase;
+}
+.styledLink:hover{
+  color: #fff;
+}
+.styledLinkContent{
+  display: grid;
+}

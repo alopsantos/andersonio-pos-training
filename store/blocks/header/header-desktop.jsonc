@@ -1,0 +1,83 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "sticky-layout#3-deskotp"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "notification.bar#ambiente",
+      "notification.bar#duvidas"
+    ],
+    "props": {
+      "fullWidth": false
+    }
+  },
+  "flex-layout.row#2-desktop": {
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "flex-layout.col#menu-usuario",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/estacao-store-logo.svg",
+      "width": "205"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#menu-usuario": {
+    "children": [
+      //"vtex.menu@2.x:menu#menu-usuario"
+    ]
+  },
+  "sticky-layout#3-deskotp": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#3-desktop"
+    ]
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#spacer"
+    ]
+  }
+}

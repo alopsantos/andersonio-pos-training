@@ -1,0 +1,80 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      //"menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      // "menu-item#novidadesc",
+      // "menu-item#promocoesc",
+      // "menu-item#vestidosc",
+      // "menu-item#blusasc",
+      // "menu-item#blazerc",
+      // "menu-item#conjuntoc",
+      // "menu-item#macacaoc",
+      // "menu-item#moletomc",
+      // "menu-item#jaquetac",
+      // "menu-item#casacoc",
+      // "menu-item#tricotc",
+      // "menu-item#cardigamc",
+      // "menu-item#calcac",
+      // "menu-item#camisac",
+      // "menu-item#tshirtc",
+      // "menu-item#croppedc",
+      // "menu-item#bodyc",
+      // "menu-item#saiasc",
+      // "menu-item#shortsc",
+      // "menu-item#acessoriosc"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "login": {
+    "props": {
+      "icon-profile": "als-icon-novidades-star",
+      "size": 32,
+      "viewBox": "0 0 14 20",
+      "activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/estacao-store-logo.svg",
+      "width": "205"
+    }
+  },
+  "flex-layout.row#2-mobile":{
+    "children":["search-bar"],
+    "props":{"blockClass":"als-search-bar"}
+  }
+}

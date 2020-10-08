@@ -1,0 +1,22 @@
+{
+  "notification.bar#ambiente": {
+    "props": {
+      "content": "Compras em ambiente 100% seguro"
+    }
+  },
+  "notification.bar#instagram": {
+    "props": {
+      "content": "Marque nosso instagram nas fotos do seu look!"
+    }
+  },
+  "notification.bar#entrega": {
+    "props": {
+      "content": "Entregamos para todo o território brasileiro"
+    }
+  },
+  "notification.bar#duvidas": {
+    "props": {
+      "content": "Tire suas dúvidas, fale conosco no chat"
+    }
+  }
+}

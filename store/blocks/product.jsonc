@@ -3,7 +3,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
        "flex-layout.row#product-main",
-      // "__fold__",
+       "__fold__",
        "flex-layout.row#description",
       // "rich-text#shelf-title-product-qvvt",
       // "list-context.product-list#product-qvvt",
@@ -11,6 +11,7 @@
       // "rich-text#shelf-title-product-qcct",
       // "list-context.product-list#product-qcct",
       // "product-images.high-quality-image"
+      "__fold__",
       "shelf#novidades"
     ]
   },
