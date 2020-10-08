@@ -39,7 +39,7 @@
       "iconProps": {
         "id": "als-novidades",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -60,7 +60,7 @@
       "iconProps": {
         "id": "als-promocoes",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -81,7 +81,7 @@
       "iconProps": {
         "id": "als-vestido",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -102,7 +102,7 @@
       "iconProps": {
         "id": "als-blusas",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -123,7 +123,7 @@
       "iconProps": {
         "id": "als-tshirt",
         "size": 32,
-        "viewBox": "0 0 20 22"
+        "viewBox": "0 0 20 32"
       },
       "iconToTheRight": false
     }
@@ -144,7 +144,7 @@
       "iconProps": {
         "id": "als-camisa",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -165,7 +165,7 @@
       "iconProps": {
         "id": "als-cropped",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -186,7 +186,7 @@
       "iconProps": {
         "id": "als-shorts",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -207,7 +207,7 @@
       "iconProps": {
         "id": "als-saias",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -228,7 +228,7 @@
       "iconProps": {
         "id": "als-body",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -249,7 +249,7 @@
       "iconProps": {
         "id": "als-blazer",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -270,7 +270,7 @@
       "iconProps": {
         "id": "als-calca",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -291,7 +291,7 @@
       "iconProps": {
         "id": "als-conjunto",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -312,7 +312,7 @@
       "iconProps": {
         "id": "als-macacao",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -333,7 +333,7 @@
       "iconProps": {
         "id": "als-moletom",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -354,7 +354,7 @@
       "iconProps": {
         "id": "als-jaqueta",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -375,7 +375,7 @@
       "iconProps": {
         "id": "als-casaco",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -396,7 +396,7 @@
       "iconProps": {
         "id": "als-tricot",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -417,7 +417,7 @@
       "iconProps": {
         "id": "als-cardiga",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
@@ -438,7 +438,7 @@
       "iconProps": {
         "id": "als-acessorios",
         "size": 32,
-        "viewBox": "0 0 22 22"
+        "viewBox": "0 0 22 32"
       },
       "iconToTheRight": false
     }
