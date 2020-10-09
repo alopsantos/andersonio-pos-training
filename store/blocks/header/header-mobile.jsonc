@@ -26,31 +26,12 @@
   },
   "drawer": {
     "children": [
-      //"menu#drawer"
+      "menu#drawer"
     ]
   },
   "menu#drawer": {
     "children": [
-      // "menu-item#novidadesc",
-      // "menu-item#promocoesc",
-      // "menu-item#vestidosc",
-      // "menu-item#blusasc",
-      // "menu-item#blazerc",
-      // "menu-item#conjuntoc",
-      // "menu-item#macacaoc",
-      // "menu-item#moletomc",
-      // "menu-item#jaquetac",
-      // "menu-item#casacoc",
-      // "menu-item#tricotc",
-      // "menu-item#cardigamc",
-      // "menu-item#calcac",
-      // "menu-item#camisac",
-      // "menu-item#tshirtc",
-      // "menu-item#croppedc",
-      // "menu-item#bodyc",
-      // "menu-item#saiasc",
-      // "menu-item#shortsc",
-      // "menu-item#acessoriosc"
+      "vtex.menu@2.x:menu#websites"
     ],
     "props": {
       "orientation": "vertical"

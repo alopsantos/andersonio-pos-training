@@ -1,3 +1,446 @@
 {
-  
-}
+    "vtex.menu@2.x:menu#websites": {
+      "children": [
+        "menu-item#novidades",
+        "menu-item#promocoes",
+        "menu-item#vestidos",
+        "menu-item#blusas",
+        "menu-item#tshirt",
+        "menu-item#camisa",
+        "menu-item#cropped",
+        "menu-item#shorts",
+        "menu-item#saias",
+        "menu-item#body",
+        "menu-item#blazer",
+        "menu-item#calca",
+        "menu-item#conjunto",
+        "menu-item#macacao",
+        "menu-item#moletom",
+        "menu-item#jaqueta",
+        "menu-item#casaco",
+        "menu-item#tricot",
+        "menu-item#cardiga",
+        "menu-item#acessorios"
+      ]
+    },
+    "menu-item#novidades": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100016",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Novidades",
+          "text": "Novidades"
+        },
+        "iconProps": {
+          "id": "als-novidades",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#promocoes": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100018",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Promoções",
+          "text": "Promoções"
+        },
+        "iconProps": {
+          "id": "als-promocoes",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#vestidos": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100004",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Vestidos",
+          "text": "Vestidos"
+        },
+        "iconProps": {
+          "id": "als-vestido",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#blusas": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100001",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Blusas",
+          "text": "Blusas"
+        },
+        "iconProps": {
+          "id": "als-blusas",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#tshirt": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100008",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "T-Shirt",
+          "text": "T-Shirt"
+        },
+        "iconProps": {
+          "id": "als-tshirt",
+          "size": 32,
+          "viewBox": "0 0 20 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#camisa": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100009",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Camisa",
+          "text": "Camisa"
+        },
+        "iconProps": {
+          "id": "als-camisa",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#cropped": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100023",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Cropped",
+          "text": "Cropped"
+        },
+        "iconProps": {
+          "id": "als-cropped",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#shorts": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100002",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Shorts",
+          "text": "Shorts"
+        },
+        "iconProps": {
+          "id": "als-shorts",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#saias": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100007",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Saias",
+          "text": "Saias"
+        },
+        "iconProps": {
+          "id": "als-saias",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#body": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100022",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Body",
+          "text": "Body"
+        },
+        "iconProps": {
+          "id": "als-body",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#blazer": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100021",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Blazer",
+          "text": "Blazer"
+        },
+        "iconProps": {
+          "id": "als-blazer",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#calca": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100003",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Calça",
+          "text": "Calça"
+        },
+        "iconProps": {
+          "id": "als-calca",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#conjunto": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100024",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Conjunto",
+          "text": "Conjunto"
+        },
+        "iconProps": {
+          "id": "als-conjunto",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#macacao": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100014",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Macacão",
+          "text": "Macacão"
+        },
+        "iconProps": {
+          "id": "als-macacao",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#moletom": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100012",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Moletom",
+          "text": "Moletom"
+        },
+        "iconProps": {
+          "id": "als-moletom",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#jaqueta": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100026",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Jaqueta",
+          "text": "Jaqueta"
+        },
+        "iconProps": {
+          "id": "als-jaqueta",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#casaco": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100036",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Casaco",
+          "text": "Casaco"
+        },
+        "iconProps": {
+          "id": "als-casaco",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#tricot": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100005",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Tricot",
+          "text": "Tricot"
+        },
+        "iconProps": {
+          "id": "als-tricot",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#cardiga": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100011",
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "Cardiga",
+          "text": "Cardiga"
+        },
+        "iconProps": {
+          "id": "als-cardiga",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    },
+    "menu-item#acessorios": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "category",
+        "highlight": false,
+        "itemProps": {
+          "categoryId":"100035",
+          "type": "internal",
+          "href": "",
+          "noFollow": true,
+          "tagTitle": "Acessórios",
+          "text": "Acessórios"
+        },
+        "iconProps": {
+          "id": "als-acessorios",
+          "size": 32,
+          "viewBox": "0 0 22 32"
+        },
+        "iconToTheRight": false
+      }
+    }
+  }

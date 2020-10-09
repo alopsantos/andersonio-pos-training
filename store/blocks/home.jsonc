@@ -1,7 +1,24 @@
 {
   "store.home": { 
     "blocks": [
-      "shelf#novidades"
+      "shelf#novidades",
+      "flex-layout.row#shelf"
     ]
+  },
+  "flex-layout.row#shelf":{
+    "children":[
+      "slider-layout"
+    ]
+  },
+  "slider-layout":{
+    "props":{
+      "itemsPerPage":{
+        "desktop": 1, "tablet": 1, "phone": 1
+      },
+      "left": 50,
+      "right": 50,
+      "infinite": true
+    },
+    "children":["shelf#novidades"]
   }
 }
